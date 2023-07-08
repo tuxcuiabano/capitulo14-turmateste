@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: br.edu.ficdev.TurmaControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.459 s <<< FAILURE! - in br.edu.ficdev.TurmaControllerTest
+testAddTurma  Time elapsed: 0.223 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+turmaRepository.save(
+    br.edu.ficdev.model.Turma@797c67c
+);
+-> at br.edu.ficdev.TurmaControllerTest.testAddTurma(TurmaControllerTest.java:65)
+Actually, there were zero interactions with this mock.
+
+	at br.edu.ficdev.TurmaControllerTest.testAddTurma(TurmaControllerTest.java:65)
+
